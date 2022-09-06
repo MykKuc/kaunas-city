@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="styles/index.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Main Page</title>
@@ -19,19 +22,35 @@
 <main>
     <h2>Main facts</h2>
     <ul>
-        <li><em>Population:</em>289380</li>
-        <li><em>Mayor:</em>Visvaldas Matijošaitis</li>
-        <li><em>Gross Metropolitan Product:</em>10.2 bil EUR</li>
-        <p>Kaunas coat of arms below:</p>
-        <img id="kaunas-1" src="images/Coat_of_arms_of_Kaunas.svg" alt="Kaunas coat of arms" title="Kaunas coat of arms">
+        <li><em>Population: </em>289380</li>
+        <li><em>Mayor: </em>Visvaldas Matijošaitis</li>
+        <li><em>Gross Metropolitan Product: </em>10.2 bil EUR</li>
+        <li><em>Ethnographic region: </em>Aukstaitija</li>
+        <li><em>Size rank in Lithuania: </em>2</li>
+        <li><em>Timezone of the city: </em>	UTC+2</li>
 
-        <p>Something <sup>2</sup></p>
-
-
-        <section>
-            <p>Kaunas was founded in: <time>1408</time> </p>
-        </section>
     </ul>
+
+    <section class="index-flexbox-mayor">
+        <div class="index-flexbox-mayor1">
+            <p>Visvaldas Matijosaitis is the current mayor of Kaunas city. He was born in 1957. He graduated from
+                Vilnius University as an Engineer.
+            He is the founder and previous CEO of a big Lithuanian food company by the name of "Viciunai".
+            He took the office of the mayor of Kaunas in 2015. In 2019 he got reelected as a mayor.
+            </p>
+        </div>
+            <img id="visvaldas-pic" src="images/index/visvaldas.jpg" alt="mayor Visvaldas">
+    </section>
+
+
+
+    <section class="index-coat-of-arms">
+        <p>Kaunas coat of arms below:</p>
+        <img id="kaunas-1" src="images/index/Coat_of_arms_of_Kaunas.svg" alt="Kaunas coat of arms" title="Kaunas coat of arms">
+    </section>
+            <p>Kaunas was founded in: <time>1408</time> </p>
+
+
 
     <table class="index-table">
         <caption>Populations of different elderships of Kaunas</caption>
@@ -87,8 +106,20 @@
                     <td>21200</td>
                 </tr>
         </tbody>
+        <tfoot>
+        <tr>
+            <th>Total:</th>
+            <td>285918</td>
+        </tr>
+        </tfoot>
     </table>
 
+    <section>
+        <p>Below we can see the video introducing city of Kaunas, giving the travel guide. </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qHc6HVWQgGc" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </section>
 
 </main>
 

@@ -1,0 +1,19 @@
+
+.zal-flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #7f719f;
+}
+
+.zal-flexbox-container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #a398b5;
+}
+
+.zal-img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: thin;
+}

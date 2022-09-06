@@ -1,8 +1,22 @@
 
+.centr-flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: 	#7f719f;
+}
 
+.centr-flexbox-container2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #a398b5;
+}
 
-
-
+.centr-img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: thin;
+}
 
 
 .sen-footer {

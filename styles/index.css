@@ -3,20 +3,51 @@
     background-color: #b08307;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.index-flexbox-mayor {
+    display: flex;
+    justify-content: center;
+}
+
+.index-flexbox-mayor1 {
+    border-style: solid;
+    border-width: thin;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#visvaldas-pic {
+    border-style: solid;
+    border-width: thin;
+}
+
 #kaunas-1 {
-    width: 200px;
+    width: 220px;
     height: 250px;
+    border-style: solid;
+    border-width: thin;
 }
 
 #f{
     color: blue;
     display: block;
-
 }
 
-.index-table {
-    
+.index-coat-of-arms {
+    text-align: center;
+    background-color: #c2bfd3;
 }
+
 
 
 .index-footer {
