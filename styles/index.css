@@ -1,0 +1,30 @@
+
+.index-header {
+    background-color: #b08307;
+}
+
+#kaunas-1 {
+    width: 200px;
+    height: 250px;
+}
+
+#f{
+    color: blue;
+    display: block;
+
+}
+
+.index-table {
+    
+}
+
+
+.index-footer {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+}
+
